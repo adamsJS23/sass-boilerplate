@@ -1,0 +1,19 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "A sass boilerplate for future project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamsJS23/sass-boilerplate.git"
+  },
+  "author": "Guebre Adama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamsJS23/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/adamsJS23/sass-boilerplate#readme"
+}
