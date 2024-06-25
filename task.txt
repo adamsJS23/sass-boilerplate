@@ -1,0 +1,12 @@
+This file be can deleted after averything is setup and running
+
+"scripts": {
+    "devserver": "live-server",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixser -b 'last 10 version' css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build": "npm-run-all compile:sass prefix:css compress:css"
+  }
+
