@@ -1,0 +1,65 @@
+//SPACING SYSTEM (px)
+//2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+// FONT FAMILLY
+
+$ff-primary: "Playfair Display", serif;
+$ff-secondary: "Lato", sans-serif;
+
+// FONT SIZES
+
+$fs-10: 1rem;
+$fs-12: 1.2rem;
+$fs-14: 1.4rem;
+$fs-16: 1.6rem;
+$fs-18: 1.8rem;
+$fs-20: 2rem;
+$fs-24: 2.4rem;
+$fs-30: 3rem;
+$fs-36: 3.6rem;
+$fs-44: 4.4rem;
+$fs-52: 5.2rem;
+$fs-62: 6.2rem;
+$fs-74: 7.4rem;
+$fs-86: 8.6rem;
+$fs-98: 9.8rem;
+
+// FONT WEIGHT
+
+$fw-300: 300;
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+
+// LINE HEIGHT
+$lh-12: 1.2;
+$lh-16: 1.6;
+
+// LETTER SPACING
+$ls-20: 2rem;
+
+// COLORS
+
+// ### PRIMARY
+
+$clr-primary--1: #ff6635;
+$clr-primary--2: #dd4e11;
+$clr-secondary--1: #ffaaff;
+$clr-secondary--2: #ffaa;
+
+// - 400: #FF6635
+// - 500: #DD4E11
+
+// - 900: #212121
+// - 400: #5C5C5C
+// - 200: #F8F8F8
+// - 100: #FFFFFF
+
+//  NEUTRAL
+
+$clr-neutral--1: #f7f7f7;
+$clr-neutral--2: #5c5c5c;
+$clr-neutral--3: #f8f8f8;
+
+$clr-white: #ffffff;
+$clr-black: #000000;
