@@ -12,9 +12,6 @@ html {
 }
 
 img,
-picture,
-video,
-canvas,
 svg {
   display: block;
   max-width: 100%;
@@ -26,4 +23,9 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  border: none;
+  border-radius: none;
 }
