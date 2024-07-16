@@ -13,3 +13,26 @@ select {
 p {
   text-wrap: balance;
 }
+
+.heading-primary {
+  font-size: clamp($fs-3, 6.35vw, $fs-86);
+  letter-spacing: 2px;
+  color: $clr-white;
+  line-height: $lh12;
+  font-family: $ff-primary;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: clamp($fs-30, 6.35vw, $fs-44);
+  color: $clr-primary--2;
+  font-family: $ff-primary;
+  font-weight: 700;
+  line-height: $lh-12;
+}
+
+.heading-tertiary {
+  font-family: $ff-secondary;
+  font-weight: $fw-700;
+  font-size: $fs-24;
+}
