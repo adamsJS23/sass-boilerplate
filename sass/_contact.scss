@@ -1,0 +1,97 @@
+.contact-section {
+  background-image: linear-gradient(
+      to right,
+      rgba(41, 106, 144, 0.8),
+      rgba(41, 106, 144, 0.8)
+    ),
+    url("../photo-2.avif");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  .heading-secondary::after {
+    background-color: #fff;
+  }
+
+  .contact-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32.5rem, 1fr));
+
+    grid-gap: 4rem;
+  }
+
+  .contact-left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-left-col span {
+    display: block;
+  }
+
+  .contact-address {
+    font-style: normal;
+    font-size: 1.6rem;
+  }
+
+  .contact-phone {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .contact-email {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .social-icons {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .social-link {
+    display: block;
+    padding: 1rem;
+    background-color: #fff;
+
+    & svg {
+      height: 2.4rem;
+      width: 2.4rem;
+      fill: #797d7b;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  input,
+  textarea {
+    background-color: #296a90;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 0.5rem 1rem;
+  }
+
+  .form-name::placeholder,
+  .form-email::placeholder,
+  .form-message::placeholder {
+    color: #ccc;
+  }
+
+  .form-cta {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f7b91a;
+    align-self: flex-end;
+  }
+}
